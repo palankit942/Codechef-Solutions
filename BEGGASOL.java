@@ -19,17 +19,17 @@ class Codechef
 	        {
 	            arr[j] = sc.nextInt();
 	        }
-	        int gas=arr[0];
-	        int ans=arr[0];
+	        int car=arr[0];
+	        int tra=arr[0];
 	        for(j=1;j<n;j++)
 	        {
-	            gas--;
-	            if(gas < 0)
+	            car--;
+	            if(car < 0)
 	            break;
-	            gas += arr[j];
-	            ans += arr[j];
+	            car += arr[j];
+	            tra += arr[j];
 	        }
-	        System.out.println(ans);
+	        System.out.println(tra);
 	    }
 	}
 }
